@@ -1138,6 +1138,16 @@
         <param index="6" label="Longitude">Longitude</param>
         <param index="7" label="Altitude" units="m">Altitude</param>
       </entry>
+      <entry value="86" name="MAV_CMD_NAV_DIVE_TO_TARGET" hasLocation="true" isDestination="true">
+        <description>Commands the vehicle to perform a ballistic dive toward a target coordinate.</description>
+        <param index="1">Hold time at depth (seconds, 0 to not hold)</param>
+        <param index="2">Acceptance radius (meters)</param>
+        <param index="3">Target depth (meters)</param>
+        <param index="4">Yaw angle (degrees, NaN for unchanged)</param>
+        <param index="5">Latitude</param>
+        <param index="6">Longitude</param>
+        <param index="7">Altitude (meters)</param>
+    </entry>
       <entry value="17" name="MAV_CMD_NAV_LOITER_UNLIM" hasLocation="true" isDestination="true">
         <description>Loiter around this waypoint an unlimited amount of time</description>
         <param index="1">Empty</param>
