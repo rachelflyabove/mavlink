@@ -6999,6 +6999,8 @@
       <field type="float" name="alt" units="m">Altitude of impact point</field>
       <field type="float" name="velocity" units="m/s">Impact velocity</field>
       <field type="uint8_t" name="success">0: failed, 1: success</field>
+      <field type="float" name="impact_speed_mps" units="m/s">Impact speed in meters per second</field>
+      <field type="float" name="distance_error_m" units="m">Distance from target in meters</field>
   </message>
     <message id="241" name="VIBRATION">
       <description>Vibration levels and accelerometer clipping</description>
