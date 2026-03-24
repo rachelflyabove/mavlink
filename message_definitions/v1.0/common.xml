@@ -6992,7 +6992,7 @@
       <field type="int8_t" name="custom1">Field for custom payload.</field>
       <field type="int8_t" name="custom2">Field for custom payload.</field>
     </message>
-    <message id="510" name="GUIDED_DIVE_IMPACT">
+    <message id="515" name="GUIDED_DIVE_IMPACT">
       <description>Message sent from autopilot when a guided dive impacts the target.</description>
       <field type="int32_t" name="lat" units="degE7">Latitude of impact point</field>
       <field type="int32_t" name="lon" units="degE7">Longitude of impact point</field>
